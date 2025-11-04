@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE = "mkappera:/flaskapp"
+    IMAGE = "mkappera/flaskapp"
     REGISTRY_CRED = 'dockerhub-creds' // Jenkins credentials id for Docker Hub
   }
   stages {

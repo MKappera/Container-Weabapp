@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Hello, World! This is containerized Flask App from CI/CD'
+    return 'Hello, World! This is containerized Flask App from CI/CD Testing phase2'
 
 @app.route('/health')
 def health():
